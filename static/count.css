@@ -1,0 +1,30 @@
+body{
+    background-image: url('photo-1454496522488-7a8e488e8606.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.head{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.time{
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.big{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4rem; 
+    font-weight: bolder;
+    margin: 15px 40px; 
+}
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Year Countdown</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='count.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="head">
+        TIME LEFT IN NEW YEAR 
+    </div>
+    <div class="time">
+        <div class="countdown">
+            <p class="big" id="days">00</p>
+            <span>Days</span>
+        </div>
+        <div class="countdown">
+            <p class="big" id="hours">00</p>
+            <span>Hours</span>
+        </div>
+        <div class="countdown">
+            <p class="big" id="mins">00</p>
+            <span>Mins</span>
+        </div>
+        <div class="countdown">
+            <p class="big" id="sec">00</p>
+            <span>Seconds</span>
+        </div>
+    </div>
+    
+    
+    <script src="{{ url_for('static', filename='count.js') }}"></script>
+</body>
+</html>
